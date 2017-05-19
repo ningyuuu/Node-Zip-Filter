@@ -1,11 +1,11 @@
 {
-  "name": "govbuy",
+  "name": "govBuy_skeleton_filterZip",
   "version": "1.0.0",
-  "description": "",
+  "description": "A skeleton for a node app to set up filterZip as a govBuy project.",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha -w"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,9 @@
   "optionalDependencies": {
     "bufferutil": "^3.0.0",
     "utf-8-validate": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
   }
 }
